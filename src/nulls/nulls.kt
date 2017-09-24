@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     var letItBeNull : String? = nullMsg
 
     println(nullMsg?.length)
-//    println(letItBeNull!!.length) // Hey compiler! I know what I am doing. just Chi!! : NullPointerException
+    println(letItBeNull!!.length) // Hey compiler! I know what I am doing. just Chi!! : NullPointerException
 
 
     val serviceMessageKotlin : String? = getServiceMessageKotlinWay()
