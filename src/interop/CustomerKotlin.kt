@@ -25,3 +25,7 @@ class CustomerKotlin{
     }
 
 }
+
+fun CustomerKotlin.drop(){
+
+}

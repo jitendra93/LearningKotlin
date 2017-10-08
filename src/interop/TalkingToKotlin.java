@@ -15,6 +15,10 @@ public class TalkingToKotlin {
         System.out.print(customerKotlin.isLearning); // JVMfield
 
         customerKotlin.preferential(); // JVMName, kinda creates an alias for a function
+
+        CustomerKotlinKt.drop(customerKotlin); // Accessing extension function
+
+        DontNameMeUtility.bing();
     }
 
 }
